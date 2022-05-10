@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+     <!--Bootstrapcdn Link-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <!--cssstylesheet Link-->
+     <link rel="stylesheet" href="style.css">
+     <!--Fontawesome cdn link-->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+     <!--Icon -->
+    <link rel="shortcut icon" type="image/png" href="logo3.png" >
+     <style>
+         .form input {
+            width: 50%;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border-top: 20px;
+            border-left: 20px;
+            border-right: 20px;
+            outline: none; 
+            color: #ff8e00;
+         }
+         .form input:focus{
+            box-shadow: 1px 1px 1px black;
+         }
+         .form p{
+             margin-right: 34%;
+         }
+         h5{
+             margin-right: 36%;
+         }
+         .rem{
+             margin-top: 20px;
+             padding: 10px;
+         }
+         .rem a:hover{
+           color: coral;
+         }
+         .text a{
+             padding: 5px;
+             color: coral;
+         }
+         .icons a{
+           color: white;
+           width: 100%;
+           height: 100%;
+           padding: 7px;
+           border-radius: 80%;
+           background-color: black;
+           
+         }
+         .icons a:hover{
+           color: coral;
+         }
+     </style>
+     </head>
+     <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+            <div class="container">
+             <a href="index.html"> <img src="logo1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i id="bar" class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About us</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login/Register</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <i class="fal fa-search"></i>
+                    <i class="fal fa-shopping-bag"></i>
+                  </li>   
+              </div>
+            </div>
+          </nav>
+          <!--Sign in-->
+      <section id="featured" class="mt-4 py-5 text-center">
+        <div class="container  mt-5 py-5">
+          <h2 class="font-weight-bold">Register</h2>
+          <hr class="mx-auto">
+        </div>
+        <div class="form">
+            <form name="submit-googlesheet" method="POST">
+                <input type="text" id="fname" name="First name" placeholder="First name" required>
+                <input type="text" id="lname" name="Last name" placeholder="Last name" required><br><br>
+                <input type="email" name="Email-Id" placeholder="Email Id" required><br>
+                <input type="password" name="Password" placeholder=" Password" required><br>
+                <p>At least 8 characters and 1 digit.</p>
+                <input type="number" name="number" placeholder="Mobile Number" required>
+                <h5>For two step authentication.</h5>
+                <button class="mt-3"> Sign Up</button>
+            </form>
+            <div class="rem">
+            <h4 class="text">Already have an account!<a href="login.html">Sign in.</a></h4>
+            <h4 class="font-weight-light mt-3"> Or signup with:</h4><br>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f" ></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
+
+  <!--Footer-->
+  <footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <img src="logo2.png" alt="">
+        <p class="pt-3">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? So come and explore our Rymo!</p>
+      </div>
+      <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+        <h5 class="pb-2">Featured</h5>
+        <ul class="list-unstyled text-uppercase">
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Boys</a></li>
+          <li><a href="#">Girls</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Clothes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+        <h5 class="pb-2">Contact Us</h5>
+        <div>
+          <h6 class="text-uppercase"> Address</h6>
+          <p>(914) 788-9391
+            1544 Washington St
+             New York(NY), 10567</p>
+        </div>
+
+        <div>
+          <h6 class="text-uppercase"> Phone</h6>
+          <p>(914) 788-9391</p>
+        </div>
+
+        <div>
+          <h6 class="text-uppercase"> Email</h6>
+          <p>Rymoofficial@gmail.com</p>
+        </div> 
+      </div>
+
+      <div class="footer-one col-lg-3 col-md-6 col-12 ">
+        <h5 class="pb-2">Instagram</h5>
+        <div class="row">
+          <img class="img-fluid w-25 h-100 m-2" src="insta1.jpg" alt="">
+          <img class="img-fluid w-25 h-100 m-2" src="insta2.jpg" alt="">
+          <img class="img-fluid w-25 h-100 m-2" src="insta3.jpg" alt="">
+          <img class="img-fluid w-25 h-100 m-2" src="insta4.jpg" alt="">
+          <img class="img-fluid w-25 h-100 m-2" src="insta5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="copyright mt-5">
+      <div class="row container mx-auto">
+        <div class=" col-lg-3 col-md-6 col-12 mb-4">
+          <img src="payment.png" alt="">
+        </div>
+
+        <div class=" col-lg-4 col-md-6 col-12 mb-2">
+          <p>Rymo ecommerce &copy; 2021. All Rights Reserved</p>
+        </div>
+
+        <div class=" col-lg-4 col-md-6 col-12">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbwv7BVaLybMPOT6NPDRXzRJEtb1MhZrrsZ0aL_KqIXGx5OD5D7Ro8GGrRKQKfxwuojN/exec"
+            const form = document.forms['submit-googlesheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Successfully Registered"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          
+</script>     
+</body>
+</html>         
